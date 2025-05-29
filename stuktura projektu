@@ -1,0 +1,12 @@
+projekt_zvuky/                  # Kořenová složka projektu
+├── main.py                     # Tvůj Python skript s klasifikací zvuků
+├              
+└── zvuky/                      # Složka s trénovacími daty
+    ├── alarm/                  # Zvuky obsahující alarmy
+    │   ├── alarm1.wav
+    │   ├── alarm2.wav
+    │   └── ...                 # Další .wav soubory s alarmem
+    └── normalni/               # Běžné (normální) zvuky
+        ├── normal1.wav
+        ├── normal2.wav
+        └── ...                 # Další .wav soubory bez alarmu
